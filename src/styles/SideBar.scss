@@ -1,0 +1,47 @@
+@import '_variables.scss';
+
+.sidebar{
+    background-color: $dark_grey;
+    width: 60px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    &__logo{
+        width: 60px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    &__icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .sidebar__icon-menu{
+            color: $white;
+            width: 40px;
+            height: 35px;
+            margin-top: 10px;
+        }
+
+        .sidebar__icon{
+            width: 30px;
+            height: 30px;
+            background-color: $sidebar_icon_background;
+            color: $sidebar_icon_color;
+            border-radius: 50%;
+            padding: 5px;
+            margin-top: 20px;
+        }
+
+        .sidebar__icon-basket{
+            margin-top: 100px;
+        }
+
+        .sidebar__icon-languages{
+            margin-top: 100px;
+        }
+    }
+}
