@@ -19,19 +19,19 @@ const Footer = () => {
             </div>
             <div className='footer__socials'>
                 <div className='footer__social-item'>
-                    <FaFacebookF className='footer__social-item-link'/>
+                    <FaFacebookF className='footer__social-item-icon'/>
                 </div>
                 <div className='footer__social-item'>
-                    <SlSocialVkontakte className='footer__social-item-link'/>
+                    <SlSocialVkontakte className='footer__social-item-icon'/>
                 </div>
                 <div className='footer__social-item'>
-                    <FaTwitter className='footer__social-item-link'/>
+                    <FaTwitter className='footer__social-item-icon'/>
                 </div>
                 <div className='footer__social-item'>
-                    <FaInstagram className='footer__social-item-link'/>
+                    <FaInstagram className='footer__social-item-icon'/>
                 </div>
                 <div className='footer__social-item'>
-                    <FaTelegramPlane className='footer__social-item-link'/>
+                    <FaTelegramPlane className='footer__social-item-icon'/>
                 </div>
             </div>
         </div>

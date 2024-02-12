@@ -238,6 +238,7 @@
 @media (max-width: 750px){
     .main__page{
         padding: 100px 40px 30px 100px;
+        width: 100%;
     }
     .section{
         padding: 0px 30px 30px 30px;
@@ -255,6 +256,32 @@
             display: grid;
             grid-template-columns: 1fr;
             row-gap: 15px;
+        }
+    }
+}
+
+@media (max-width: 580px){
+
+    .button__add-server{
+        width: 250px;
+    }
+
+    .section{
+        &__title{
+            font-size: 22px;
+            line-height: 66px;
+            color: $dark_grey;
+            font-weight: bold;
+        }
+
+        &__button-price{
+            .button__add-order{
+                width: 250px;
+            }
+        
+            .description_last{
+                width: 300px;
+            }
         }
     }
 }

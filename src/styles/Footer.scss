@@ -2,7 +2,7 @@
 
 .footer{
     background-color: $white;
-    padding: 70px 150px;
+    padding: 70px 80px 70px 130px;
 
     &__company{
         font-size: 18px;
@@ -30,8 +30,7 @@
     }
 
     &__social-item{
-        width: 59px;
-        height: 59px;
+        padding: 10px;
         border-radius: 10px;
         background-color: $grey;
         display: flex;
@@ -40,7 +39,7 @@
         margin-right: 13px;
     }
 
-    &__social-item-link{
+    &__social-item-icon{
         color: #a2a4ae;
         width: 30px;
         height: 30px;
@@ -62,6 +61,17 @@
             display: grid;
             grid-template-columns: 1fr;
             
+        }
+    }
+}
+
+@media (max-width: 570px){
+    .footer{
+        padding: 70px 80px 70px 100px;
+
+        &__social-item-icon{
+            width: 20px;
+            height: 20px;
         }
     }
 }

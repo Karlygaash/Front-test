@@ -1,6 +1,7 @@
 import FortiGate from '../components/FortiGate';
 import IpAddress from '../components/IpAddress';
 import Server1 from '../components/Server1';
+import '../styles/MainPage.scss'
 
 const MainPage = () => {
     return(
